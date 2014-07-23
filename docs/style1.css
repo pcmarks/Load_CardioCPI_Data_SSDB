@@ -1,0 +1,18 @@
+strong {
+    color: red; }
+.carrot {
+    color: orange; }
+.spinach {
+    color: green; }
+#first {
+    color: blue;
+    font-style: italic; }
+#second {
+    color: blue; }
+
+body {
+    background: url("Blue-rule.png");}
+
+p:before {
+    content: url("Yellow-pin.png")
+}
