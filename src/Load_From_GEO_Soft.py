@@ -108,7 +108,7 @@ sample_ids_code = '54'
 genes_code = '55'
 studies_code = '56'
 
-db = pyssdb(host='localhost', port=8888)
+db = pyssdb.Client(host='localhost', port=8888)
 
 
 def Put(key, value):
