@@ -1,7 +1,7 @@
 __author__ = 'pcmarks'
 
 # This version of the GEO soft data loader uses the SSDB server for the backend
-# NB: CHANGE THE VARIABLE outer_directory TO POINT TO THE DIRECTORY THAT CONTAINS THE SOFT
+# NB: CHANGE THE VARIABLE data_directory TO POINT TO THE DIRECTORY THAT CONTAINS THE SOFT
 # FILES.
 
 import csv
@@ -11,8 +11,7 @@ from datetime import datetime
 import pyssdb
 
 
-outer_directory = 'data/'
-data_directory = os.path.join(outer_directory, 'raw')
+data_directory = 'data/'
 
 soft_file_attributes = [
     {
